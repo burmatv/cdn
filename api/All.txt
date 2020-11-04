@@ -1,0 +1,45 @@
+Analytics - SELECT COUNT(DISTINCT uid) as deviceCount, DATE_FORMAT(created_date, '%Y-%m-%d') as date FROM analytics GROUP BY DATE_FORMAT(created_date, '%Y-%m-%d');
+
+SELECT COUNT(DISTINCT uid) from analytics;
+
+SELECT COUNT(*) from subscription_user where expire_day = 7;
+
+SELECT COUNT(*) from subscription_user_device WHERE uid in (SELECT uid from subscription_user where expire_day = 7);
+
+SELECT COUNT(DISTINCT uid) FROM analytics WHERE uid NOT IN (SELECT uid FROM subscription_user);
+
+SELECT COUNT(*) FROM subscription_user;
+
+SELECT COUNT(*) FROM subscription_user_device WHERE uid IN(SELECT uid FROM subscription_user);
+
+namecheap acc
+username pansy007
+password A102030bc
+cloudflare acc
+sxschoolcv@gmail.com
+A102030bc@
+
+git config --global user.name "Kyaw Htut"
+git config --global user.email "developer.kyawhtut@gmail.com"
+
+git config --global user.name "B Tv"
+git config --global user.email "kohlam422@gmail.com"
+
+!kohlam422@1997!
+!kohlam422@2020!
+
+git credential-osxkeychain erase
+host=github.com
+protocol=https
+
+Myanmar Cast	6	FALSE	https://lh3.googleusercontent.com/-SBDjhTrJjfgDr6ZepQ8GFcG_43I1eU6qYCBCj6DvZOlc4Rs5LKfki1iVoY4_Yj-gfM	https://l1-xl1.myanmarnet.com/relay2/mcs/ch1/stream.m3u8				0	FALSE																
+
+Mizzima	26	TRUE	http://www.myanmartvchannels.com/assets/images/channeliconb/mizzima.jpg	https://l1-xl1.myanmarnet.com/relay/mizzima/ch1/stream.m3u8				0	TRUE																
+
+Cookie	27	TRUE	https://techhubmm.com/storage/images/blog/banner/initial/I2m5xzX0nnuwWCGxPRGy-20190111103415.jpg	https://d2p9n7qazh0vue.cloudfront.net/lt/ngrp:4984fdb7-86ac-4214-8572-98a4d63aa369_service/playlist.m3u8				0	TRUE																
+
+Cookie Asia	28	TRUE	
+https://techhubmm.com/storage/images/blog/banner/initial/I2m5xzX0nnuwWCGxPRGy-20190111103415.jpg	https://d2p9n7qazh0vue.cloudfront.net/lt/ngrp:c2c4c9be-de30-4059-a430-dac9ed238eac_service/playlist.m3u8				0	TRUE																
+
+MNTV	6	TRUE	https://i.pinimg.com/originals/38/4e/e1/384ee107f3d5afec22e9bbe5f06272be.jpg	https://l1-xl1.myanmarnet.com/relay/mntv/ch1/stream.m3u8	http://edge-stream-07.otv.co.th.:80/livestream/MNTV.stream/chunklist_w988717742.m3u8			0	TRUE																
+
